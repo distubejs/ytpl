@@ -55,5 +55,5 @@ Returns a promise.
 # Related / Works well with
 
 - [DisTube](https://github.com/skick1234/DisTube) - A Discord.js module to simplify your music commands and play songs with audio filters on Discord without any API key.
-- [@distube/ytdl-core](https://github.com/distubejs/ytdl-core) - DisTube fork of [ytpl](https://github.com/fent/node-ytdl-core).
+- [@distube/ytdl-core](https://github.com/distubejs/ytdl-core) - DisTube fork of [ytdl](https://github.com/fent/node-ytdl-core).
 - [@distube/ytsr](https://github.com/distubejs/ytsr) - DisTube fork of [ytsr](https://github.com/TimeForANinja/node-ytsr).
