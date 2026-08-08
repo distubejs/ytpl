@@ -2,7 +2,10 @@
   "name": "@distube/ytpl",
   "version": "1.2.4",
   "description": "Anonymous YouTube playlist resolver. Made for distube.js.org",
-  "keywords": ["youtube", "playlist"],
+  "keywords": [
+    "youtube",
+    "playlist"
+  ],
   "bugs": {
     "url": "https://github.com/distubejs/ytpl/issues"
   },
@@ -12,10 +15,15 @@
   },
   "license": "MIT",
   "author": "Skick (https://github.com/skick1234)",
-  "contributors": ["Tobias Kutscha (https://github.com/TimeForANinja)"],
+  "contributors": [
+    "Tobias Kutscha (https://github.com/TimeForANinja)"
+  ],
   "main": "./lib/main.js",
   "types": "./typings/index.d.ts",
-  "files": ["lib", "typings"],
+  "files": [
+    "lib",
+    "typings"
+  ],
   "scripts": {
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
@@ -23,12 +31,12 @@
     "test": "bun run lint && bun run lint:typings"
   },
   "dependencies": {
-    "undici": "^6.19.2"
+    "undici": "^6.28.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "dtslint": "^4.2.1",
-    "typescript": "^5.7.2"
+    "typescript": "^5.9.3"
   },
   "engines": {
     "node": ">=18"
